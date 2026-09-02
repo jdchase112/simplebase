@@ -1,0 +1,47 @@
+/* GLOBAL TYPOGRAPHY */
+
+/* SET DEFAULT FONT SIZE AND LINE HEIGHT */
+body {
+    font-size: 100%;
+    line-height: 1.25;
+}
+
+/* SET FONT AND WEIGHT FOR HEADINGS */
+h1,
+h2,
+h3 {
+    font-family: var(--sans-serif);
+    font-weight: 600;
+    margin: 0;
+}
+
+/* STYLING FOR HEADING 1 */
+h1 {
+    font-size: 3em;
+    margin-block-start: 1em;
+    line-height: 1;
+}
+
+/* STYLING FOR HEADING 2 */
+h2 {
+    font-size: 2em;
+    margin-block-start: 1em;
+    margin-block-end: 0.5em;
+    line-height: 1.1;
+}
+
+/* STYLING FOR HEADING 3 */
+h3 {
+    font-size: 1.5em;
+    margin-block-start: 1em;
+    line-height: 1.2;
+}
+
+/* STYLING FOR PARAGRAPHS */
+p {
+    font-family: var(--serif);
+    margin-block-start: 0.5em;
+    margin-block-end: 1em;
+    text-wrap: pretty;
+    max-width: 90ch;
+}
