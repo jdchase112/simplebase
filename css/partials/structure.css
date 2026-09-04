@@ -1,0 +1,53 @@
+/* --------------------
+------ STRUCTURE ------
+--------------------- */
+
+/* SITE HEADER STYLING */
+.site-header {
+    background-color: yellow;
+    padding: 1em;
+}
+
+/* SITE FOOTER STYLING */
+.site-footer {
+    background-color: yellow;
+    padding: 1em;
+}
+
+/* HERO SECTION STYLING */
+.hero {
+    background-color: pink;
+    padding: 3em 1em;
+}
+
+/* SECTION STYLING */
+section {
+    padding: 0;
+}
+
+/* TWO COLUMN LAYOUT WITH ASIDE */
+main:has(.sidebar) {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 2em;
+}
+
+aside {
+    margin-top: 1em;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+
+    /* STICK THE ASIDE TO THE TOP ON SCROLL */
+    position: sticky;
+    top: 1em;
+}
+
+section {
+    grid-column: 2 / 3;
+}
+
+.hero {
+    grid-column: 1 / 3;
+}
+
+/* CONTAINER */

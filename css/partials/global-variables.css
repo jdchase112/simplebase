@@ -3,17 +3,17 @@
 :root {
 
     /* MAIN UI COLORS */
-    --body-background-color: #eee;
+    --body-background-color: #eeeeee;
     --body-text-color: #222;
 
     /* LINK COLORS */
     --link-color: rgb(55, 0, 255);
     --link-color-hover: rgb(15, 0, 125);
 
-    /* SANS SERIF */
+    /* SANS SERIF FONT FAMILY */
     --sans-serif: Helvetica, Arial, sans-serif;
 
-    /* SERIF */
+    /* SERIF FONT FAMILY*/
     --serif: "Times New Roman", Times, serif;
 
 }

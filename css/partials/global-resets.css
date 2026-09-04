@@ -1,4 +1,6 @@
-/* GLOBAL RESETS */
+/* ------------------------
+------ GLOBAL RESETS ------
+------------------------ */
 
 /* SET INITIAL BOX SIZING TO IGNORE PADDING AND BORDER WIDTH */
 * {
@@ -10,14 +12,12 @@ body {
     margin: 0;
 }
 
-/* MAKE ALL IMAGES AND SVGS RESPONSIVE */
-img,
-svg {
-    height: auto;
-    max-width: 100%;
-}
-
 /* ENABLE SMOOTH SCROLLING */
 html {
     scroll-behavior: smooth;
+}
+
+/* OFFSET ANCHOR TARGET FOR INLINE LINKS */
+:target {
+    scroll-margin-top: 1em;
 }
