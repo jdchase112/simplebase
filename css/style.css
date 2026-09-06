@@ -1,13 +1,6 @@
-/* -------------------------------------------
----------------------------------------------- 
+/* ------------------------------------------- 
 ------ CSS PARTIALS & TABLE OF CONTENTS ------
-----------------------------------------------
 ------------------------------------------- */
-
-
-/* ------------------
------- GLOBALS ------
------------------- */
 
 /* GLOBAL VARIABLES */
 @import url(partials/global-variables.css);
@@ -29,14 +22,8 @@
 @import url(partials/global-media.css);
 /* --- RESPONSIVE IMAGES, SVGS, AND VIDEOS */
 
-/* HELPERS */
-@import url(partials/helpers.css);
-
 /* STRUCTURE */
 @import url(partials/structure.css);
-
-/* LAYOUT */
-/* @import url(partials/global-layout.css); */
 
 /* CONTAINERS */
 @import url(partials/containers.css);
