@@ -22,8 +22,13 @@
 @import url(partials/global-media.css);
 /* --- RESPONSIVE IMAGES, SVGS, AND VIDEOS */
 
+/* GLOBAL CONTAINERS */
+@import url(partials/global-containers.css);
+/* --- CONTAINER CLASS --- */
+
+/* GLOBAL GRID */
+@import url(partials/global-grid.css);
+/* --- GLOBAL 12 COLUMN GRID SYSTEM --- */
+
 /* STRUCTURE */
 @import url(partials/structure.css);
-
-/* CONTAINERS */
-@import url(partials/containers.css);

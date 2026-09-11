@@ -1,4 +1,6 @@
-/* GLOBAL VARIABLES */
+/* ---------------------------
+------ GLOBAL VARIABLES ------
+--------------------------- */
 
 :root {
 
@@ -14,6 +16,17 @@
     --sans-serif: Helvetica, Arial, sans-serif;
 
     /* SERIF FONT FAMILY*/
-    --serif: "Times New Roman", Times, serif;
+    --serif: Georgia, Times, serif;
+
+    /* DEFINE FONTS */
+    --font-body: var(--serif);
+    --font-headings: var(--sans-serif);
+
+    /* SIZING UNITS */
+    --unit-xsmall-: 0.5rem;
+    --unit-small: 1rem;
+    --unit-medium: 2rem;
+    --unit-large: 3rem;
+    --unit-xlarge: 4rem;
 
 }
