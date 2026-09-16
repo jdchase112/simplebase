@@ -48,3 +48,13 @@ p {
     text-wrap: pretty;
     max-width: 90ch;
 }
+
+/* CODE BLOCKS */
+pre code {
+    font-family: monospace;
+    display: block;
+    background-color: #ddd;
+    padding: var(--unit-small) var(--unit-medium) var(--unit-medium);
+    border-radius: 10px;
+    border: 1px solid #aaa;
+}

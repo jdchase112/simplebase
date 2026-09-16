@@ -30,5 +30,9 @@
 @import url(partials/global-grid.css);
 /* --- GLOBAL 12 COLUMN GRID SYSTEM --- */
 
+/* GLOBAL HELPERS */
+@import url(partials/global-helpers.css);
+/* --- HELPERS --- */
+
 /* STRUCTURE */
 @import url(partials/structure.css);

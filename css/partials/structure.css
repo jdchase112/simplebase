@@ -20,6 +20,10 @@
     /* SITE LOGO */
     .site-logo {
 
+        display: flex;
+        align-items: center;
+        gap: var(--unit-small);
+
         h1 {
             /* CONTROL LOGO TEXT SIZE & REMOVE MARGIN AND PADDING */
             font-size: 1.5em;
@@ -89,21 +93,12 @@ section {
     padding-block: var(--unit-medium);
 }
 
-/* TWO COLUMN LAYOUT WITH ASIDE */
-main:has(.sidebar) {
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    gap: 2em;
-}
+.sidebar nav {
+    margin-top: 2em;
 
-aside {
-    margin-top: 1em;
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
-
-    /* STICK THE ASIDE TO THE TOP ON SCROLL */
+    /* STICK THE SIDEBAR TO THE TOP ON SCROLL */
     position: sticky;
-    top: 1em;
+    top: 2em;
 }
 
 section {

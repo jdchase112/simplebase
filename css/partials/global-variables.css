@@ -19,7 +19,7 @@
     --serif: Georgia, Times, serif;
 
     /* DEFINE FONTS */
-    --font-body: var(--serif);
+    --font-body: var(--sans-serif);
     --font-headings: var(--sans-serif);
 
     /* SIZING UNITS */
