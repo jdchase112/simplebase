@@ -22,4 +22,11 @@ a {
         color: var(--link-color-hover);
     }
 
+    /* SET LINK UNDERLINE COLOR AND STYLING */
+    text-decoration-color:var(--link-color-hover);
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+
 }

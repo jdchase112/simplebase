@@ -24,15 +24,19 @@
 
 /* GLOBAL CONTAINERS */
 @import url(partials/global-containers.css);
-/* --- CONTAINER CLASS --- */
+/* --- CONTAINER CLASS */
 
 /* GLOBAL GRID */
 @import url(partials/global-grid.css);
-/* --- GLOBAL 12 COLUMN GRID SYSTEM --- */
+/* --- GLOBAL 12 COLUMN GRID SYSTEM */
 
 /* GLOBAL HELPERS */
 @import url(partials/global-helpers.css);
-/* --- HELPERS --- */
+/* --- HORIZONTAL RULES HELPER */
 
 /* STRUCTURE */
 @import url(partials/structure.css);
+
+/* COMPONENTS */
+@import url(partials/ui-buttons.css);
+@import url(partials/ui-cards.css);
